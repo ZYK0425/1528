@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 -(void)play;
-
+-(void)eat;
 @end
 

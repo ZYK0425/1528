@@ -18,6 +18,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self play];
+    [self eat];
+}
+-(void)eat
+{
+    NSLog(@"我吃饱了");
 }
 -(void)play
 {
